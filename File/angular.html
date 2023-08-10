@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/angular-1.5.7/angular.min.js"></script>
+    <script src="/angular-1.5.7/angular-route.min.js"></script>
+    <title>Document</title>
+</head>
+<body ng-app="myApp">
+    <section class="specials" id="product">
+        <div class="products">
+                        
+         <a href="#specials" class="sp" id="sp"><center>Our Products</center></a>
+         <center>
+           <div class="product-list">
+             <div class="prod">
+             <div class="list">
+               <li id="li" class="btn1"><a href="#/homeaccent">Indoor Plants</a></li>
+             </div>
+             <div class="list">
+               <li id="li" class="btn1"><a href="#/led">Outdoor Plants</a></li>
+             </div>
+             <div class="list">
+               <li id="li" class="btn1"><a href="#/wall">Succulents Plants</a></li>
+             </div>
+             <div class="list">
+               <li id="li" class="btn1"><a href="#/fan">Flowering Shrubs</a></li>
+             </div>
+             </div>
+             <div class="prod1">
+             <div class="list">
+               <li id="li" class="btn1"><a href="#/ceiling">Herbs</a></li>
+             </div>
+             <div class="list">
+               <li id="li" class="btn1"><a href="#/lamp">Blooming Flowers</a></li>
+             </div>
+             </div>
+           </div>
+         </center>
+        </div>
+         <div class="ng-view"></div>
+         
+</section>
+</body>
+<script src="route.js"></script>
+<!--<script src="wall.js"></script>-->
+</html>
